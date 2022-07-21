@@ -57,25 +57,3 @@
         }
     }
 }
-
-.current {
-    color: var(--accent-color);
-
-    &::after {
-        
-                content: '';
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 4px;
-        
-                background-color: var(--accent-color);
-                border-radius: 2px;
-        
-                animation-name: currentUnderline;
-                animation-duration: 250ms;
-    }
-}
