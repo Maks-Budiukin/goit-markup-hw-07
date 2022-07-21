@@ -18,11 +18,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-}
 
-.main-button:hover,
-.main-button:focus {
-    background-color: var(--blue-button-hover);
+        &:hover,
+        &:focus {
+            background-color: var(--blue-button-hover);
+        }
 }
 
 
@@ -45,10 +45,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            fill: var(--accent-color);
+        }
+
 }
 
-.close-button:hover,
-.close-button:focus {
-    cursor: pointer;
-    fill: var(--accent-color);
-}
