@@ -59,6 +59,8 @@
 }
 
 .current {
+    position: relative;
+
     &::after {
         
                 content: '';
